@@ -1,24 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Button } from "./components/Button";
+import { Label } from "./components/Label";
+import { Text } from "./components/Text";
+import { Dropdown } from "./components/Dropdown";
+import { Radio } from "./components/Radio";
+import { Table } from "./components/Table";
+import { HeroImage } from "./components/HeroImage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "40px" }}>
+      <h1>UI Garden Component Library</h1>
+
+      <Button label="Click Me" />
+      <Label text="Sample Label" />
+      <Text text="Sample Text Component" />
+
+      <Dropdown
+        options={[
+          { label: "Option 1", value: "1" },
+          { label: "Option 2", value: "2" },
+        ]}
+      />
+
+      <Radio label="Radio Option" />
+
+      <Table
+        headers={["Name", "Age"]}
+        rows={[
+          ["Alice", 25],
+          ["Bob", 30],
+        ]}
+      />
+
+      <HeroImage
+        src="https://picsum.photos/1200/400"
+        title="Hero Image"
+        alt="Hero"
+      />
     </div>
   );
 }
