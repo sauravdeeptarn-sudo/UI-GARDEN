@@ -1,12 +1,12 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import { Image } from "./Image";
+import type { Meta, StoryObj } from '@storybook/react';
+import { Image } from './Image';
 
 const meta: Meta<typeof Image> = {
-  title: "Components/Image",
+  title: 'Components/Image',
   component: Image,
   args: {
-    src: "https://via.placeholder.com/300",
-    alt: "Placeholder image",
+    src: 'https://via.placeholder.com/300',
+    alt: 'Placeholder image',
     width: 300,
     height: 200,
     disabled: false,

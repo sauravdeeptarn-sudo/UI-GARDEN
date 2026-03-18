@@ -1,9 +1,5 @@
-import React from "react";
+import React from 'react';
 
-export const TableHeader = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
+export const TableHeader = ({ children }: { children: React.ReactNode }) => {
   return <th>{children}</th>;
 };

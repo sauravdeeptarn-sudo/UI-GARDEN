@@ -1,11 +1,11 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import { Radio } from "./Radio";
+import type { Meta, StoryObj } from '@storybook/react';
+import { Radio } from './Radio';
 
 const meta: Meta<typeof Radio> = {
-  title: "Components/Radio",
+  title: 'Components/Radio',
   component: Radio,
   args: {
-    label: "Select me",
+    label: 'Select me',
     checked: false,
     disabled: false,
   },

@@ -1,12 +1,12 @@
-import React from "react";
-import { ButtonProps } from "./Button.types";
-import { StyledButton, IconWrapper, Spinner } from "./Button.styles";
+import React from 'react';
+import { ButtonProps } from './Button.types';
+import { StyledButton, IconWrapper, Spinner } from './Button.styles';
 
 export const Button = ({
   label,
   disabled,
-  variant = "primary",
-  size = "md",
+  variant = 'primary',
+  size = 'md',
   loading,
   leftIcon,
   rightIcon,

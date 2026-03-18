@@ -1,6 +1,6 @@
-import React from "react";
-import { RadioProps } from "./Radio.types";
-import { RadioWrapper, StyledRadio } from "./Radio.styles";
+import React from 'react';
+import { RadioProps } from './Radio.types';
+import { RadioWrapper, StyledRadio } from './Radio.styles';
 
 export const Radio = ({ label, checked, disabled, onChange }: RadioProps) => {
   return (

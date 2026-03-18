@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HeroWrapper = styled.div<{
   src: string;
@@ -9,10 +9,10 @@ export const HeroWrapper = styled.div<{
   background-image: url(${({ src }) => src});
   background-size: cover;
   background-position: center;
-  height: ${({ height }) => height || "300px"};
+  height: ${({ height }) => height || '300px'};
   position: relative;
   opacity: ${({ disabled }) => (disabled ? 0.5 : 1)};
-  cursor: ${({ disabled }) => (disabled ? "not-allowed" : "default")};
+  cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'default')};
   transition: opacity 0.2s ease;
 `;
 

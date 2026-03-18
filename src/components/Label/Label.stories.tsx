@@ -1,18 +1,18 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { Label } from "./Label";
+import { Meta, StoryObj } from '@storybook/react';
+import { Label } from './Label';
 
 const meta: Meta<typeof Label> = {
-  title: "Components/Label",
+  title: 'Components/Label',
   component: Label,
   args: {
-    text: "Label text",
+    text: 'Label text',
     disabled: false,
-    color: "#000000",
+    color: '#000000',
   },
   argTypes: {
-    text: { control: "text" },
-    disabled: { control: "boolean" },
-    color: { control: "color" },
+    text: { control: 'text' },
+    disabled: { control: 'boolean' },
+    color: { control: 'color' },
   },
 };
 

@@ -1,6 +1,6 @@
-import React from "react";
-import { TableProps } from "./Table.types";
-import { StyledTable } from "./Table.styles";
+import React from 'react';
+import { TableProps } from './Table.types';
+import { StyledTable } from './Table.styles';
 
 export const Table = ({ headers, rows, disabled }: TableProps) => {
   return (

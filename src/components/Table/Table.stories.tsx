@@ -1,15 +1,15 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import { Table } from "./Table";
+import type { Meta, StoryObj } from '@storybook/react';
+import { Table } from './Table';
 
 const meta: Meta<typeof Table> = {
-  title: "Components/Table",
+  title: 'Components/Table',
   component: Table,
   args: {
-    headers: ["Name", "Age", "City"],
+    headers: ['Name', 'Age', 'City'],
     rows: [
-      ["Alice", 25, "Toronto"],
-      ["Bob", 30, "Winnipeg"],
-      ["Charlie", 28, "Vancouver"],
+      ['Alice', 25, 'Toronto'],
+      ['Bob', 30, 'Winnipeg'],
+      ['Charlie', 28, 'Vancouver'],
     ],
     disabled: false,
   },

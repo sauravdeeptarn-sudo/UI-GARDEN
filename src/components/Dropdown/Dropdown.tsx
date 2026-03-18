@@ -1,8 +1,13 @@
-import React from "react";
-import { DropdownProps } from "./Dropdown.types";
-import { StyledSelect } from "./Dropdown.styles";
+import React from 'react';
+import { DropdownProps } from './Dropdown.types';
+import { StyledSelect } from './Dropdown.styles';
 
-export const Dropdown = ({ options, value, disabled, onChange }: DropdownProps) => {
+export const Dropdown = ({
+  options,
+  value,
+  disabled,
+  onChange,
+}: DropdownProps) => {
   return (
     <StyledSelect
       disabled={disabled}

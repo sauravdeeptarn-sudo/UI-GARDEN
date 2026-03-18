@@ -1,6 +1,6 @@
-import React from "react";
-import { CardProps } from "./Card.types";
-import { CardWrapper, CardTitle } from "./Card.styles";
+import React from 'react';
+import { CardProps } from './Card.types';
+import { CardWrapper, CardTitle } from './Card.styles';
 
 export const Card = ({ title, children }: CardProps) => {
   return (

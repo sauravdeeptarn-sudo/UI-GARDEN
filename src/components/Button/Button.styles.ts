@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 export const StyledButton = styled.button<{
   variant?: string;
@@ -17,12 +17,12 @@ export const StyledButton = styled.button<{
   /* Sizes */
   ${({ size }) => {
     switch (size) {
-      case "sm":
+      case 'sm':
         return css`
           padding: 6px 12px;
           font-size: 14px;
         `;
-      case "lg":
+      case 'lg':
         return css`
           padding: 12px 20px;
           font-size: 18px;
@@ -38,7 +38,7 @@ export const StyledButton = styled.button<{
   /* Variants */
   ${({ variant }) => {
     switch (variant) {
-      case "secondary":
+      case 'secondary':
         return css`
           background: #e0e0e0;
           color: #333;
@@ -51,7 +51,7 @@ export const StyledButton = styled.button<{
             background: #c9c9c9;
           }
         `;
-      case "outline":
+      case 'outline':
         return css`
           background: transparent;
           border: 2px solid #007bff;
@@ -65,7 +65,7 @@ export const StyledButton = styled.button<{
             background: rgba(0, 123, 255, 0.2);
           }
         `;
-      case "ghost":
+      case 'ghost':
         return css`
           background: transparent;
           color: #007bff;
@@ -108,7 +108,7 @@ export const StyledButton = styled.button<{
   }
 `;
 
-export const IconWrapper = styled.span<{ position?: "left" | "right" }>`
+export const IconWrapper = styled.span<{ position?: 'left' | 'right' }>`
   display: inline-flex;
   align-items: center;
   justify-content: center;

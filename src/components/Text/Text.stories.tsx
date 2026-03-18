@@ -1,20 +1,20 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { Text } from "./Text";
+import { Meta, StoryObj } from '@storybook/react';
+import { Text } from './Text';
 
 const meta: Meta<typeof Text> = {
-  title: "Components/Text",
+  title: 'Components/Text',
   component: Text,
   args: {
-    text: "Sample text",
-    size: "md",
+    text: 'Sample text',
+    size: 'md',
     disabled: false,
-    color: "#000000",
+    color: '#000000',
   },
   argTypes: {
-    text: { control: "text" },
-    size: { control: "radio", options: ["sm", "md", "lg"] },
-    disabled: { control: "boolean" },
-    color: { control: "color" },
+    text: { control: 'text' },
+    size: { control: 'radio', options: ['sm', 'md', 'lg'] },
+    disabled: { control: 'boolean' },
+    color: { control: 'color' },
   },
 };
 

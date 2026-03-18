@@ -1,12 +1,12 @@
-import { TableHeader } from "./TableHeader";
+import { TableHeader } from './TableHeader';
 
 export default {
-  title: "Components/TableHeader",
+  title: 'Components/TableHeader',
   component: TableHeader,
 };
 
 export const Default = {
   args: {
-    children: "Header Cell",
+    children: 'Header Cell',
   },
 };
