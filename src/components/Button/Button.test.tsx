@@ -11,6 +11,6 @@ test('Button style changes when disabled', () => {
   const { container } = render(<Button label="Click me" disabled />);
   const button = container.querySelector('button');
   expect(button).toHaveStyleRule('opacity', '0.5');
-  var test = "oops";  // eslint should warn about var usage
-});
 
+  // Removed unused 'test' variable to pass ESLint
+});
