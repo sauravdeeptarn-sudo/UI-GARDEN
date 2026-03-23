@@ -10,7 +10,7 @@ test('Button is visible', () => {
 test('Button style changes when disabled', () => {
   const { container } = render(<Button label="Click me" disabled />);
   const button = container.querySelector('button');
-  expect(button).toHaveStyleRule('opacity', '0.5');
 
-  // Removed unused 'test' variable to pass ESLint
+  // Match the actual disabled style in your Button component
+  expect(button).toHaveStyle('opacity: 0.5');
 });
