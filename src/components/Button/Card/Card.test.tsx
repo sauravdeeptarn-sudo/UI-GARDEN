@@ -12,5 +12,5 @@ test('Card background changes when disabled', () => {
   const card = container.firstChild;
 
   // Match the actual disabled style in your Card component
-   expect(card).toHaveStyle('background: #ffffff'); // <-- change to white
+  expect(card).toHaveStyle('background: #ffffff'); // <-- change to white
 });

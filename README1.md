@@ -11,12 +11,12 @@ This project extends the UI Component Library by adding **code quality checks an
 
 The following tools were integrated:
 
-* ESLint (code linting)
-* Prettier (code formatting)
-* Jest (testing)
-* Husky (pre-commit hooks)
-* GitHub Actions (CI pipeline)
-* Docker (production deployment)
+- ESLint (code linting)
+- Prettier (code formatting)
+- Jest (testing)
+- Husky (pre-commit hooks)
+- GitHub Actions (CI pipeline)
+- Docker (production deployment)
 
 ---
 
@@ -54,9 +54,9 @@ npm test -- --watchAll=false
 
 Husky is configured to run before every commit:
 
-* ESLint
-* Prettier
-* Tests
+- ESLint
+- Prettier
+- Tests
 
 ❗ If any check fails, the commit is blocked.
 
@@ -66,8 +66,8 @@ Husky is configured to run before every commit:
 
 A GitHub Actions workflow is configured to:
 
-* Run ESLint
-* Run tests
+- Run ESLint
+- Run tests
 
 👉 If checks fail, the build fails in GitHub.
 
@@ -93,12 +93,12 @@ http://localhost:8018
 
 Each component includes:
 
-* ComponentName.tsx
-* ComponentName.styles.ts
-* ComponentName.types.ts
-* ComponentName.stories.tsx
-* ComponentName.test.tsx
-* index.ts
+- ComponentName.tsx
+- ComponentName.styles.ts
+- ComponentName.types.ts
+- ComponentName.stories.tsx
+- ComponentName.test.tsx
+- index.ts
 
 ---
 
