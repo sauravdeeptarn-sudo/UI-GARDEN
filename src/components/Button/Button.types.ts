@@ -7,4 +7,5 @@ export interface ButtonProps {
   leftIcon?:   React.ReactNode;
   rightIcon?: React.ReactNode;
   onClick?: () => void;
+  const name = "Saurav"
 }
